@@ -15,7 +15,7 @@ const errorMiddleware = require("./middlewares/errors")
 
 const app = express()
 
-app.use(cors())
+app.use(cors({origin: https://learnoh-client.vercel.app}))
 app.use(express.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(cookieParser())
