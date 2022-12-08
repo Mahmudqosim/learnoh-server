@@ -1,10 +1,10 @@
-{
+We{
   "name": "Learno",
   "version": "1.0.0",
   "description": "An online learning application",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "SET NODE_ENV=PRODUCTION& node server.js",
     "development": "SET NODE_ENV=DEVELOPMENT& nodemon server.js",
     "production": "SET NODE_ENV=PRODUCTION& nodemon server.js"
   },
