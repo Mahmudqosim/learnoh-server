@@ -1,0 +1,32 @@
+{
+  "name": "Learno",
+  "version": "1.0.0",
+  "description": "An online learning application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "development": "SET NODE_ENV=DEVELOPMENT& nodemon server.js",
+    "production": "SET NODE_ENV=PRODUCTION& nodemon server.js"
+  },
+  "author": "Qosim Mahmud",
+  "license": "MIT",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.2",
+    "cloudinary": "^1.23.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "mongoose": "^5.12.0",
+    "nodemailer": "^6.7.2",
+    "socket.io": "^4.5.1",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
