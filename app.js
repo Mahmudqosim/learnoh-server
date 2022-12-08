@@ -4,7 +4,7 @@ const cookieParser = require("cookie-parser")
 const bodyParser = require("body-parser")
 
 // Sets up config file
-require("dotenv").config({ path: "config/config.env" })
+require("dotenv").config()
 
 // Routes Import
 const authRoutes = require("./routes/auth.routes")
